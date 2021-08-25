@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url('/src/image/ObEGSN.jpg') no-repeat;
+  background: url('../image/ObEGSN.jpg') no-repeat;
   background-size: cover;
   font-family: 'Roboto', sans-serif;
   color: #ffff;
