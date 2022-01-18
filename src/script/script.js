@@ -5,7 +5,7 @@ const formatTime = (time) => {
 const countdown = setInterval(() => {
     const now = new Date().getTime();
     const nowYear = new Date().getFullYear();
-    document.querySelector('h2 > span').innerText = nowYear;
+    document.querySelector('h2 > span').innerText = nowYear + 1;
 
     const nextYear = new Date(`Jan 1 ${nowYear + 1} 00:00:00`).getTime();
     const gap = nextYear - now;
